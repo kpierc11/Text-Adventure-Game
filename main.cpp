@@ -1,8 +1,18 @@
 #include <iostream>
+#include "Game.h"
 
 int main()
 {
 
-	std::cout << "hello world" << std::endl;
+	Game game;
+
+	bool gameInit = game.InitGame();
+
+	if(gameInit)
+	{
+		game.RunGame();
+	}
+
+	game.QuitGame();
 	
 }
