@@ -3,7 +3,6 @@
 
 int main()
 {
-
 	Game game;
 
 	bool gameInit = game.InitGame();
@@ -14,5 +13,4 @@ int main()
 	}
 
 	game.QuitGame();
-	
 }
